@@ -1,14 +1,16 @@
 @media screen and (max-width: 1200px){
     header{
-    flex-direction: column;
+        flex-direction: column;
     }
     main{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media screen and (max-width: 600px){
     
     h2{
-        font-size: 20pt;
+        font-size: 15pt;
     }
 }
